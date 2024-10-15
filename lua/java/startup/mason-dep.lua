@@ -35,9 +35,6 @@ function M.refresh_and_install(packages)
 		-- lazy covers mason
 		-- https://github.com/nvim-java/nvim-java/issues/51
 		lazy.close_lazy_if_opened()
-
-		mason_ui.open()
-		notify.warn('Please close and re-open after dependecies are installed')
 	end)
 
 	mason_util.refresh_registry()
