@@ -46,9 +46,9 @@ end
 ---@return table
 function M.get_pkg_list(config)
 	local deps = List:new({
-		{ name = 'jdtls', version = 'v1.38.0' },
+		{ name = 'jdtls', version = 'v1.40.0' },
 		{ name = 'lombok-nightly', version = 'nightly' },
-		{ name = 'java-test', version = '0.40.1' },
+		{ name = 'java-test', version = '0.41.1' },
 		{ name = 'java-debug-adapter', version = '0.58.0' },
 	})
 
